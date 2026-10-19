@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar HTML</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1><b>Kantin Digital</b></h1>
+      </div>
+    </header>
+    <main>
+      <!-- JUDUL -->
+      <div class="judul1">
+        <h1>
+          <b style="text-align: center;">Selamat datang!<br />di kantin digital.</b>
+        </h1>
+      </div>
+    </main>
+    <div class="hero">
+      <title>Pojok Kantin Digital</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Kantin Digital</h1>
+    </header>
+    <main>
+      
+      <form onsubmit="hitungPesanan(event)">
+        <h3>Daftar Menu</h3>
+        <table border="1" cellpadding="8" cellspacing="0">
+          <tr>
+            <th>No</th>
+            <th>Menu</th>
+            <th>Harga</th>
+            <th>Jumlah Pesan</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Nasi Goreng</td>
+            <td>Rp20.000</td>
+            <td><input type="number" id="menu1" min="0" value="0"></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Mie Goreng</td>
+            <td>Rp15.000</td>
+            <td><input type="number" id="menu2" min="0" value="0"></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Ayam Geprek</td>
+            <td>Rp18.000</td>
+            <td><input type="number" id="menu3" min="0" value="0"></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Es Teh</td>
+            <td>Rp10.000</td>
+            <td><input type="number" id="menu4" min="0" value="0"></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Air Mineral</td>
+            <td>Rp10.000</td>
+            <td><input type="number" id="menu5" min="0" value="0"></td>
+          </tr>
+        </table>
+        <br>
+        
+        <h3>Pembayaran</h3>
+        <label>Nominal Uang Bayar: Rp </label>
+        <input type="number" id="uangBayar" min="0" value="0">
+        <br><br>
+
+        <button type="submit">Pesan Sekarang</button>
+      </form>
+      
+      
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
